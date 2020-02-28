@@ -1,4 +1,4 @@
-# electron-quick-start-flutter
+# electron-flutter
 A minimal Electron application with flutter & dart
 
 ![Screenshot](screenshots/main.png)
@@ -40,6 +40,9 @@ cd build
 npm install
 npm start
 ```
+
+Mac Signing: https://samuelmeuli.com/blog/2019-12-28-notarizing-your-electron-app/
+
 ## Package
 The output directory's package manifest, build/package.json, includes electron-packager, and therefore can be packaged for distribution on Windows, MacOS, and Linux.
 
