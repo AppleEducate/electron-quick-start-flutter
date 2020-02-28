@@ -11,3 +11,18 @@ dependencies:
 
 dev_dependencies:
   pedantic: ^1.8.0+1
+
+flutter:
+  assets:
+    - assets/images/
+    - fonts/google_fonts/
+    - fonts/google_fonts.json
+
+  uses-material-design: true
+  fonts:
+    - family: GalleryIcons
+      fonts:
+        - asset: fonts/GalleryIcons.ttf
+    - family: MaterialIcons
+      fonts:
+        - asset: fonts/MaterialIcons-Regular.ttf

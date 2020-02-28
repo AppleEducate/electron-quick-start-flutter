@@ -16,6 +16,9 @@ flutter pub get
 npm install
 # Run the app
 npm run dev
+
+# Run the app with skia
+npm run dev_skia
 ```
 
 
