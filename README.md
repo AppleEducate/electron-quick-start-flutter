@@ -7,13 +7,18 @@ A minimal Electron application with flutter & dart
 
 ```bash
 # Clone this repository
-git clone https://github.com/hayderux/electron-quick-start-flutter
+
+git clone https://github.com/rodydavis/electron-flutter
 # Go into the repository
+
 cd electron-quick-start-flutter
+
 #install flutter dependencies
 flutter pub get
+
 # Install dependencies
 npm install
+
 # Run the app
 npm run dev
 
