@@ -4,9 +4,9 @@
   "description": "A minimal Electron application with flutter & dart",
   "main": "debug.js",
   "scripts": {
-    "build": "flutter packages pub global run webdev build",
-    "build_runner_serve": "flutter packages pub global run webdev serve --auto restart",
-    "dev": "run-p \"build_runner_serve\" \"start\"",
+    "build": "webdev build",
+    "build_flutter_server": "flutter run --web-port 8080 -d web-server",
+    "dev": "run-p \"build_flutter_server\" \"start\"",
     "start": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
